@@ -25,22 +25,22 @@ function logShout(string) {
   
 
   
-  function sayHiToGrandma(string) {
+    function sayHiToGrandma(string) {
    
-   if("string".toLowerCase) {
+   if(string == string.toLowerCase){
    return "I can\'t hear you!";
    }
    
-   if ("string".toUpperCase) {
+   if(string == string.toUpperCase){
    return "YES INDEED!";
    }
 
   if(string === "I love you, Grandma."){
   return "I love you, too.";
    }
+   
    }
    
-
    console.log(sayHiToGrandma("hello"));
    console.log(sayHiToGrandma("HELLO"));
    console.log(sayHiToGrandma("I love you, Grandma."));
