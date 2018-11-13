@@ -27,7 +27,7 @@ function logShout(string) {
   
   function sayHiToGrandma(string) {
    
-   if("string".toLowerCase){
+   if("string".toLowerCase) {
    return "I can\'t hear you!";
    }
    
@@ -40,9 +40,7 @@ function logShout(string) {
    }
    }
    
-   console.log(sayHiToGrandma("hello"));
-   console.log(sayHiToGrandma("HELLO"));
-   console.log(sayHiToGrandma("I love you, Grandma."));
+
 
 
  
