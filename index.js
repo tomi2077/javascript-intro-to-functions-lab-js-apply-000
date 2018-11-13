@@ -24,24 +24,26 @@ function logShout(string) {
   logwhisper("HELLO");
   
 
+  
   function sayHiToGrandma(string) {
    
-   if(string === string.toLowerCase){
-   console.log ("I can\'t hear you!");
+   if(string == string.toLowerCase){
+   return "I can\'t hear you!";
    }
    
-   if(string === string.toUpperCase){
-   console.log ("YES INDEED!");
+   if(string == string.toUpperCase){
+   return "YES INDEED!";
    }
 
   if(string === "I love you, Grandma."){
-    console.log( "I love you, too.");
+  return "I love you, too.";
    }
    }
    
-   sayHiToGrandma("hello");
-   sayHiToGrandma("HELLO");
-   sayHiToGrandma("I love you, Grandma.");
+   console.log(sayHiToGrandma("hello"));
+   console.log(sayHiToGrandma("HELLO"));
+   console.log(sayHiToGrandma("I love you, Grandma."));
+
 
  
 
