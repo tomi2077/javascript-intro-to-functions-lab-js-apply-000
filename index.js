@@ -41,7 +41,9 @@ function logShout(string) {
    }
    
 
-
+   console.log(sayHiToGrandma("hello"));
+   console.log(sayHiToGrandma("HELLO"));
+   console.log(sayHiToGrandma("I love you, Grandma."));
 
  
 
